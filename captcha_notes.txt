@@ -1,0 +1,31 @@
+CAPTCHA (Using Computer Vision and Neural Netoworks)
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+import glob
+
+
+The glob module finds all the pathnames matching a specified pattern according to the rules used by the Unix shell, although results are returned in arbitrary order. 
+
+In Python, the glob module is used to retrieve files/pathnames matching a specified pattern. The pattern rules of glob follow standard Unix path expansion rules. It is also predicted that according to benchmarks it is faster than other methods to match pathnames in directories. With glob, we can also use wildcards ("*, ?, [ranges]) apart from exact string search to make path retrieval more simple and convenient.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+.hdf5
+HDF5 (Hierarchy Data Format 5)
+
+Its a data format which allows you to store the entire model (with both weights and architecture) , without you having to re-run it. Just model.save(filename) and then load it loater.
+(File formats like JSON, YAML would allow you to store only the architecture or only the weights, not the model as a whole.) 
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+.dat file format
+
+A file with .DAT extension is a generic data file that contains information about specific program or application.
+The information in the DAT file may be in plain text or binary encoding format.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
