@@ -10,7 +10,8 @@ Note: The images in this dataset are very small, hence the correct preprocessing
         contours = contours[1] if imutils.is_cv3() else contours[0]
         
  ```
- Dont do this:
+( *Dont do this*:
         #Blurring and canny is a bad idea for this question as the images are too small. So just do thresh.
         #blurred = cv2.GaussianBlur(image, (3, 3), 0)
         #edged = cv2.Canny(blurred, 30, 180)
+)
